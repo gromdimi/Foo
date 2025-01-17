@@ -1,0 +1,5 @@
+date
+if [ -d "/etc" ] && [ -f "/etc/passwd" ]; then
+echo "Both the /etc directory and the /etc/passwd
+file exist."
+fi
